@@ -1,0 +1,92 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:400,100,300,700);
+
+* {
+  margin: 0 auto;
+  padding: 0;
+}
+
+body {
+  background-image: url(http://i.imgur.com/Gi2fKOx.jpg);
+  background-size: cover;
+  font-family: 'Lato', sans-serif;
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.notify h1 a {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 72px;
+}
+
+.notify .fa {
+  color: #D64541;
+}
+
+.notify {
+  padding-top: 150px;
+}
+
+.notify form {
+  margin-top: 10px;
+}
+
+.notify p {
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 26px;
+  font-weight: 300;
+}
+
+.social p {
+  padding-top: 10px;
+  clear:both;
+  font-size: 16px;
+  margin-bottom: -15px;
+}
+
+.social .fa {
+  color: #FFFFFF;
+  padding: 20px 5px;
+  font-size: 36px;
+}
+
+.social .fa:hover {
+  color: #D64541;
+}
+
+input[type=text] {
+  width: 20%;
+  text-align: center;
+  outline: 0;
+  border: 0;
+  padding: 15px;
+  border-radius: 5px;
+}
+
+button[type=submit] {
+  text-align: center;
+  outline: 0;
+  border: 0;
+  padding: 15px;
+  cursor: pointer;
+  color: #FFFFFF;
+  font-weight: bold;
+  background: #D64541;
+  border-radius: 5px;
+}
+
+button[type=submit]:active {
+  background: #ba3834;
+}
+
+
+@media (max-width: 480px) {
+  input[type=text] {
+    width: 50%;
+  }
+}
